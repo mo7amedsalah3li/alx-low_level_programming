@@ -9,14 +9,15 @@
  */
 int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+		char n;
 
-	for (i = 0; i < 26; i++)
-	{
-		if (i != 5 && i != 17)
-			putchar(alphabet[i]);
-	}
-	putchar('\n');
-	return (0);
+		n = 'a';
+		while
+			(n <= 'z') {
+				if (n != 'e' && c != 'q')
+					putchar(c);
+				c++;
+			}
+		putchar('\n');
+		return (0);
 }
