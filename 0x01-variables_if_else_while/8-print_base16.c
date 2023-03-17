@@ -15,7 +15,8 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 		putchar(n + '0');
-	for (i = 0; i < 26; i++)
+
+	for (i = 0; i < 6; i++)
 		putchar(alphabet[i]);
 
 	putchar('\n');
