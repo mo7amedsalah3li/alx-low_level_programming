@@ -39,5 +39,4 @@ char *str_concat(char *s1, char *s2)
        	j = len2;
 	for (len2 = 0; len2 <= j; i++, len2++)
 		conStr[i] = s2[len2];
-	return (conStr)0;
-}
+	return (conStr);
